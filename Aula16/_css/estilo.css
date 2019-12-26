@@ -1,0 +1,95 @@
+html {
+    font: 15pt Arial;
+}
+body {
+    background: url("wallpaper-php.jpg") no-repeat top center fixed;
+    background-size: cover;
+}
+
+div::before {
+    content: " Curso de PHP para Iniciantes - by Gustavo Guanabara ";
+    font: 10pt Arial;
+    font-weight: bold;
+    color: white;
+    background-color: #273747;
+    padding: 5px;
+    display: block;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    width: 560px;
+}
+
+
+
+div {
+    background-color: rgba(255,255,255,.8);
+    margin: 100px auto 100px auto;
+    padding: 10px;
+    width: 550px;
+    min-height:300px;
+}
+
+a {
+    color: #273747;
+    text-decoration: none;
+    font-weight: bold;
+    font: 11pt Helvetica;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+span.focoRed {
+    font-weight: bold;
+    color: #7e050c;
+}
+span.focoBlue {
+    font-weight: bold;
+    color: darkblue;
+}
+span.focoGreen {
+    font-weight: bold;
+    color: darkgreen;
+}
+
+span.focoOrange {
+    font-weight: bold;
+    color: #ff6118;
+}
+
+button.css3button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #ff6118;
+    padding: 10px 20px;
+    background: -webkit-gradient(
+            linear, left top, left bottom,
+            from(#ffffff),
+            color-stop(0.50, #ffffff),
+            to(#d6d6d6));
+    background: linear-gradient(
+            top,
+            #ffffff 0%,
+            #ffffff 50%,
+            #d6d6d6);
+    border-radius: 10px;
+    border: 3px solid #ff6118;
+    box-shadow:
+            0px 1px 3px rgba(000,000,000,0.5),
+            inset 0px 0px 3px rgba(255,255,255,1);
+    text-shadow:
+            0px -1px 0px rgba(000,000,000,0.1),
+            0px 1px 0px rgba(255,255,255,1);
+}
+
+#estado{ -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #eeeeee;
+        background-position: 218px center;
+        width: 250px;
+        height:30px;
+        border:1px solid #ddd;
+}

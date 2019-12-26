@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="_css/estilo.css"/>
+    <meta charset="UTF-8"/>
+    <title>Texto, cor e tamanho</title>
+</head>
+<body>
+<div>
+    <form action="receber03.php" method="get">
+        <label for="itxt">Texto:</label>
+        <input style="width: 100%;" type="text" name="t" id="itxt"/><br/>
+        <label for="itam">Tamanho:</label>
+        <select id="itam" name="tam">
+            <option value="8pt">8</option>
+            <option value="10pt" selected>10</option>
+            <option value="14pt">14</option>
+            <option value="20pt">20</option>
+            <option value="40pt">40</option>
+        </select><br/>
+        <label for="icor">Color:</label>
+        <input type="color" name="cor" id="icor"/><br/>
+        <button type="submit" value="gerar">Gerar</button>
+    </form>
+</div>
+</body>
+</html>
+ 
